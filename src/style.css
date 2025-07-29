@@ -1,5 +1,65 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #a3a3a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 1.8rem; 
+  max-width: 600px;  
+  margin: 0 auto;    
+}
+
+.page-wrapper {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+
+.title-box {
+  background-color: #ffecb3; 
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.excuse-box {
+  background-color: #c8e6c9; 
+  padding: 20px;
+  border-radius: 12px;
+  min-height: 80px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #2e7d32; /* darker green */
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.button-box {
+  background-color: #ffcdd2; 
+  width: 75px;              
+  height: 75px;             
+  border-radius: 12px;       
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  margin: 0 auto;  
+}
+
+#generate-btn {
+  font-size: 2.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+  transition: transform 0.2s ease;
 }
